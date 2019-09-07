@@ -6,6 +6,7 @@ import com.code.util.StringUtils;
 
 public class Cloumn {
     //a
+    //sdzlmrwxg
     private String cloumnName;
     private String comment;
     private String cloumnType;
