@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zb.mapper.DetailsMapper">
+
+    <select id="getDetailsById" resultType="com.zb.pojo.Details">
+        select
+                dcid as dcid,
+                dsafeguard as dsafeguard,
+                dretreat as dretreat,
+                dequip as dequip,
+                dserve as dserve,
+                dtable as dtable,
+                dsift as dsift,
+                dseal as dseal,
+                ddetect as ddetect
+        from details
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="id != null">
+                and id=#{id}
+            </if>
+        </trim>
+    </select>
+
+    <select id="getDetailsListByMap" resultType="com.zb.pojo.Details" parameterType="java.util.Map">
+        select
+                dcid as dcid,
+                dsafeguard as dsafeguard,
+                dretreat as dretreat,
+                dequip as dequip,
+                dserve as dserve,
+                dtable as dtable,
+                dsift as dsift,
+                dseal as dseal,
+                ddetect as ddetect
+        from details
+        <trim prefix="where" prefixOverrides="and | or">
+                <if test="dcid != null and dcid!=''">
+                    and dcid=#{dcid}
+                </if>
+                <if test="dsafeguard != null and dsafeguard!=''">
+                    and dsafeguard=#{dsafeguard}
+                </if>
+                <if test="dretreat != null and dretreat!=''">
+                    and dretreat=#{dretreat}
+                </if>
+                <if test="dequip != null and dequip!=''">
+                    and dequip=#{dequip}
+                </if>
+                <if test="dserve != null and dserve!=''">
+                    and dserve=#{dserve}
+                </if>
+                <if test="dtable != null and dtable!=''">
+                    and dtable=#{dtable}
+                </if>
+                <if test="dsift != null and dsift!=''">
+                    and dsift=#{dsift}
+                </if>
+                <if test="dseal != null and dseal!=''">
+                    and dseal=#{dseal}
+                </if>
+                <if test="ddetect != null and ddetect!=''">
+                    and ddetect=#{ddetect}
+                </if>
+        </trim>
+        <if test="beginPos != null and pageSize != null ">
+            limit #{beginPos},#{pageSize}
+        </if>
+    </select>
+
+    <select id="getDetailsCountByMap" resultType="Integer"  parameterType="java.util.Map">
+        select count(*) from details
+        <trim prefix="where" prefixOverrides="and | or">
+                <if test="dcid != null and dcid!=''">
+                    and dcid=#{dcid}
+                </if>
+                <if test="dsafeguard != null and dsafeguard!=''">
+                    and dsafeguard=#{dsafeguard}
+                </if>
+                <if test="dretreat != null and dretreat!=''">
+                    and dretreat=#{dretreat}
+                </if>
+                <if test="dequip != null and dequip!=''">
+                    and dequip=#{dequip}
+                </if>
+                <if test="dserve != null and dserve!=''">
+                    and dserve=#{dserve}
+                </if>
+                <if test="dtable != null and dtable!=''">
+                    and dtable=#{dtable}
+                </if>
+                <if test="dsift != null and dsift!=''">
+                    and dsift=#{dsift}
+                </if>
+                <if test="dseal != null and dseal!=''">
+                    and dseal=#{dseal}
+                </if>
+                <if test="ddetect != null and ddetect!=''">
+                    and ddetect=#{ddetect}
+                </if>
+        </trim>
+    </select>
+
+    <insert id="insertDetails" parameterType="com.zb.pojo.Details">
+        insert into details(
+                        dcid,
+                        dsafeguard,
+                        dretreat,
+                        dequip,
+                        dserve,
+                        dtable,
+                        dsift,
+                        dseal,
+                        ddetect)
+        values(
+                     #{dcid},
+                     #{dsafeguard},
+                     #{dretreat},
+                     #{dequip},
+                     #{dserve},
+                     #{dtable},
+                     #{dsift},
+                     #{dseal},
+                    #{ddetect})
+    </insert>
+
+    <update id="updateDetails" parameterType="com.zb.pojo.Details">
+        update details
+        <trim prefix="set" suffixOverrides="," suffix="where id=#{id}">
+                        <if test="dcid != null and dcid!=''">
+                            dcid=#{dcid},
+                        </if>
+                        <if test="dsafeguard != null and dsafeguard!=''">
+                            dsafeguard=#{dsafeguard},
+                        </if>
+                        <if test="dretreat != null and dretreat!=''">
+                            dretreat=#{dretreat},
+                        </if>
+                        <if test="dequip != null and dequip!=''">
+                            dequip=#{dequip},
+                        </if>
+                        <if test="dserve != null and dserve!=''">
+                            dserve=#{dserve},
+                        </if>
+                        <if test="dtable != null and dtable!=''">
+                            dtable=#{dtable},
+                        </if>
+                        <if test="dsift != null and dsift!=''">
+                            dsift=#{dsift},
+                        </if>
+                        <if test="dseal != null and dseal!=''">
+                            dseal=#{dseal},
+                        </if>
+                        <if test="ddetect != null and ddetect!=''">
+                            ddetect=#{ddetect}
+                        </if>
+        </trim>
+    </update>
+</mapper>

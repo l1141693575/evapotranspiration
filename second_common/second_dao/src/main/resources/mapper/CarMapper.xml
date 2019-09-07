@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zb.mapper.CarMapper">
+
+    <select id="getCarById" resultType="com.zb.pojo.Car">
+        select
+                cid as cid,
+                csid as csid,
+                cprice as cprice,
+                cage as cage,
+                cspeed as cspeed,
+                cmodel as cmodel,
+                cmileage as cmileage,
+                cyield as cyield,
+                cstandard as cstandard,
+                cseat as cseat,
+                cfuel as cfuel,
+                ccolor as ccolor,
+                clocation as clocation,
+                cdrive as cdrive,
+                cnationality as cnationality,
+                clightspot as clightspot,
+                cstaes as cstaes,
+                cstrict as cstrict,
+                cshort as cshort,
+                coverflow as coverflow,
+                cpractice as cpractice,
+                cdatetime as cdatetime,
+                cvehicle as cvehicle,
+                cstate as cstate
+        from car
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="id != null">
+                and id=#{id}
+            </if>
+        </trim>
+    </select>
+
+    <select id="getCarListByMap" resultType="com.zb.pojo.Car" parameterType="java.util.Map">
+        select
+                cid as cid,
+                csid as csid,
+                cprice as cprice,
+                cage as cage,
+                cspeed as cspeed,
+                cmodel as cmodel,
+                cmileage as cmileage,
+                cyield as cyield,
+                cstandard as cstandard,
+                cseat as cseat,
+                cfuel as cfuel,
+                ccolor as ccolor,
+                clocation as clocation,
+                cdrive as cdrive,
+                cnationality as cnationality,
+                clightspot as clightspot,
+                cstaes as cstaes,
+                cstrict as cstrict,
+                cshort as cshort,
+                coverflow as coverflow,
+                cpractice as cpractice,
+                cdatetime as cdatetime,
+                cvehicle as cvehicle,
+                cstate as cstate
+        from car
+        <trim prefix="where" prefixOverrides="and | or">
+                <if test="cid != null and cid!=''">
+                    and cid=#{cid}
+                </if>
+                <if test="csid != null and csid!=''">
+                    and csid=#{csid}
+                </if>
+                <if test="cprice != null and cprice!=''">
+                    and cprice=#{cprice}
+                </if>
+                <if test="cage != null and cage!=''">
+                    and cage=#{cage}
+                </if>
+                <if test="cspeed != null and cspeed!=''">
+                    and cspeed=#{cspeed}
+                </if>
+                <if test="cmodel != null and cmodel!=''">
+                    and cmodel=#{cmodel}
+                </if>
+                <if test="cmileage != null and cmileage!=''">
+                    and cmileage=#{cmileage}
+                </if>
+                <if test="cyield != null and cyield!=''">
+                    and cyield=#{cyield}
+                </if>
+                <if test="cstandard != null and cstandard!=''">
+                    and cstandard=#{cstandard}
+                </if>
+                <if test="cseat != null and cseat!=''">
+                    and cseat=#{cseat}
+                </if>
+                <if test="cfuel != null and cfuel!=''">
+                    and cfuel=#{cfuel}
+                </if>
+                <if test="ccolor != null and ccolor!=''">
+                    and ccolor=#{ccolor}
+                </if>
+                <if test="clocation != null and clocation!=''">
+                    and clocation=#{clocation}
+                </if>
+                <if test="cdrive != null and cdrive!=''">
+                    and cdrive=#{cdrive}
+                </if>
+                <if test="cnationality != null and cnationality!=''">
+                    and cnationality=#{cnationality}
+                </if>
+                <if test="clightspot != null and clightspot!=''">
+                    and clightspot=#{clightspot}
+                </if>
+                <if test="cstaes != null and cstaes!=''">
+                    and cstaes=#{cstaes}
+                </if>
+                <if test="cstrict != null and cstrict!=''">
+                    and cstrict=#{cstrict}
+                </if>
+                <if test="cshort != null and cshort!=''">
+                    and cshort=#{cshort}
+                </if>
+                <if test="coverflow != null and coverflow!=''">
+                    and coverflow=#{coverflow}
+                </if>
+                <if test="cpractice != null and cpractice!=''">
+                    and cpractice=#{cpractice}
+                </if>
+                <if test="cdatetime != null and cdatetime!=''">
+                    and cdatetime=#{cdatetime}
+                </if>
+                <if test="cvehicle != null and cvehicle!=''">
+                    and cvehicle=#{cvehicle}
+                </if>
+                <if test="cstate != null and cstate!=''">
+                    and cstate=#{cstate}
+                </if>
+        </trim>
+        <if test="beginPos != null and pageSize != null ">
+            limit #{beginPos},#{pageSize}
+        </if>
+    </select>
+
+    <select id="getCarCountByMap" resultType="Integer"  parameterType="java.util.Map">
+        select count(*) from car
+        <trim prefix="where" prefixOverrides="and | or">
+                <if test="cid != null and cid!=''">
+                    and cid=#{cid}
+                </if>
+                <if test="csid != null and csid!=''">
+                    and csid=#{csid}
+                </if>
+                <if test="cprice != null and cprice!=''">
+                    and cprice=#{cprice}
+                </if>
+                <if test="cage != null and cage!=''">
+                    and cage=#{cage}
+                </if>
+                <if test="cspeed != null and cspeed!=''">
+                    and cspeed=#{cspeed}
+                </if>
+                <if test="cmodel != null and cmodel!=''">
+                    and cmodel=#{cmodel}
+                </if>
+                <if test="cmileage != null and cmileage!=''">
+                    and cmileage=#{cmileage}
+                </if>
+                <if test="cyield != null and cyield!=''">
+                    and cyield=#{cyield}
+                </if>
+                <if test="cstandard != null and cstandard!=''">
+                    and cstandard=#{cstandard}
+                </if>
+                <if test="cseat != null and cseat!=''">
+                    and cseat=#{cseat}
+                </if>
+                <if test="cfuel != null and cfuel!=''">
+                    and cfuel=#{cfuel}
+                </if>
+                <if test="ccolor != null and ccolor!=''">
+                    and ccolor=#{ccolor}
+                </if>
+                <if test="clocation != null and clocation!=''">
+                    and clocation=#{clocation}
+                </if>
+                <if test="cdrive != null and cdrive!=''">
+                    and cdrive=#{cdrive}
+                </if>
+                <if test="cnationality != null and cnationality!=''">
+                    and cnationality=#{cnationality}
+                </if>
+                <if test="clightspot != null and clightspot!=''">
+                    and clightspot=#{clightspot}
+                </if>
+                <if test="cstaes != null and cstaes!=''">
+                    and cstaes=#{cstaes}
+                </if>
+                <if test="cstrict != null and cstrict!=''">
+                    and cstrict=#{cstrict}
+                </if>
+                <if test="cshort != null and cshort!=''">
+                    and cshort=#{cshort}
+                </if>
+                <if test="coverflow != null and coverflow!=''">
+                    and coverflow=#{coverflow}
+                </if>
+                <if test="cpractice != null and cpractice!=''">
+                    and cpractice=#{cpractice}
+                </if>
+                <if test="cdatetime != null and cdatetime!=''">
+                    and cdatetime=#{cdatetime}
+                </if>
+                <if test="cvehicle != null and cvehicle!=''">
+                    and cvehicle=#{cvehicle}
+                </if>
+                <if test="cstate != null and cstate!=''">
+                    and cstate=#{cstate}
+                </if>
+        </trim>
+    </select>
+
+    <insert id="insertCar" parameterType="com.zb.pojo.Car">
+        insert into car(
+                        cid,
+                        csid,
+                        cprice,
+                        cage,
+                        cspeed,
+                        cmodel,
+                        cmileage,
+                        cyield,
+                        cstandard,
+                        cseat,
+                        cfuel,
+                        ccolor,
+                        clocation,
+                        cdrive,
+                        cnationality,
+                        clightspot,
+                        cstaes,
+                        cstrict,
+                        cshort,
+                        coverflow,
+                        cpractice,
+                        cdatetime,
+                        cvehicle,
+                        cstate)
+        values(
+                     #{cid},
+                     #{csid},
+                     #{cprice},
+                     #{cage},
+                     #{cspeed},
+                     #{cmodel},
+                     #{cmileage},
+                     #{cyield},
+                     #{cstandard},
+                     #{cseat},
+                     #{cfuel},
+                     #{ccolor},
+                     #{clocation},
+                     #{cdrive},
+                     #{cnationality},
+                     #{clightspot},
+                     #{cstaes},
+                     #{cstrict},
+                     #{cshort},
+                     #{coverflow},
+                     #{cpractice},
+                     #{cdatetime},
+                     #{cvehicle},
+                    #{cstate})
+    </insert>
+
+    <update id="updateCar" parameterType="com.zb.pojo.Car">
+        update car
+        <trim prefix="set" suffixOverrides="," suffix="where id=#{id}">
+                        <if test="cid != null and cid!=''">
+                            cid=#{cid},
+                        </if>
+                        <if test="csid != null and csid!=''">
+                            csid=#{csid},
+                        </if>
+                        <if test="cprice != null and cprice!=''">
+                            cprice=#{cprice},
+                        </if>
+                        <if test="cage != null and cage!=''">
+                            cage=#{cage},
+                        </if>
+                        <if test="cspeed != null and cspeed!=''">
+                            cspeed=#{cspeed},
+                        </if>
+                        <if test="cmodel != null and cmodel!=''">
+                            cmodel=#{cmodel},
+                        </if>
+                        <if test="cmileage != null and cmileage!=''">
+                            cmileage=#{cmileage},
+                        </if>
+                        <if test="cyield != null and cyield!=''">
+                            cyield=#{cyield},
+                        </if>
+                        <if test="cstandard != null and cstandard!=''">
+                            cstandard=#{cstandard},
+                        </if>
+                        <if test="cseat != null and cseat!=''">
+                            cseat=#{cseat},
+                        </if>
+                        <if test="cfuel != null and cfuel!=''">
+                            cfuel=#{cfuel},
+                        </if>
+                        <if test="ccolor != null and ccolor!=''">
+                            ccolor=#{ccolor},
+                        </if>
+                        <if test="clocation != null and clocation!=''">
+                            clocation=#{clocation},
+                        </if>
+                        <if test="cdrive != null and cdrive!=''">
+                            cdrive=#{cdrive},
+                        </if>
+                        <if test="cnationality != null and cnationality!=''">
+                            cnationality=#{cnationality},
+                        </if>
+                        <if test="clightspot != null and clightspot!=''">
+                            clightspot=#{clightspot},
+                        </if>
+                        <if test="cstaes != null and cstaes!=''">
+                            cstaes=#{cstaes},
+                        </if>
+                        <if test="cstrict != null and cstrict!=''">
+                            cstrict=#{cstrict},
+                        </if>
+                        <if test="cshort != null and cshort!=''">
+                            cshort=#{cshort},
+                        </if>
+                        <if test="coverflow != null and coverflow!=''">
+                            coverflow=#{coverflow},
+                        </if>
+                        <if test="cpractice != null and cpractice!=''">
+                            cpractice=#{cpractice},
+                        </if>
+                        <if test="cdatetime != null and cdatetime!=''">
+                            cdatetime=#{cdatetime},
+                        </if>
+                        <if test="cvehicle != null and cvehicle!=''">
+                            cvehicle=#{cvehicle},
+                        </if>
+                        <if test="cstate != null and cstate!=''">
+                            cstate=#{cstate}
+                        </if>
+        </trim>
+    </update>
+</mapper>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zb.mapper.EssentialMapper">
+
+    <select id="getEssentialById" resultType="com.zb.pojo.Essential">
+        select
+                ecid as ecid,
+                eidentity as eidentity,
+                erank as erank,
+                eengine as eengine,
+                espeed as espeed,
+                estructure as estructure
+        from essential
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="id != null">
+                and id=#{id}
+            </if>
+        </trim>
+    </select>
+
+    <select id="getEssentialListByMap" resultType="com.zb.pojo.Essential" parameterType="java.util.Map">
+        select
+                ecid as ecid,
+                eidentity as eidentity,
+                erank as erank,
+                eengine as eengine,
+                espeed as espeed,
+                estructure as estructure
+        from essential
+        <trim prefix="where" prefixOverrides="and | or">
+                <if test="ecid != null and ecid!=''">
+                    and ecid=#{ecid}
+                </if>
+                <if test="eidentity != null and eidentity!=''">
+                    and eidentity=#{eidentity}
+                </if>
+                <if test="erank != null and erank!=''">
+                    and erank=#{erank}
+                </if>
+                <if test="eengine != null and eengine!=''">
+                    and eengine=#{eengine}
+                </if>
+                <if test="espeed != null and espeed!=''">
+                    and espeed=#{espeed}
+                </if>
+                <if test="estructure != null and estructure!=''">
+                    and estructure=#{estructure}
+                </if>
+        </trim>
+        <if test="beginPos != null and pageSize != null ">
+            limit #{beginPos},#{pageSize}
+        </if>
+    </select>
+
+    <select id="getEssentialCountByMap" resultType="Integer"  parameterType="java.util.Map">
+        select count(*) from essential
+        <trim prefix="where" prefixOverrides="and | or">
+                <if test="ecid != null and ecid!=''">
+                    and ecid=#{ecid}
+                </if>
+                <if test="eidentity != null and eidentity!=''">
+                    and eidentity=#{eidentity}
+                </if>
+                <if test="erank != null and erank!=''">
+                    and erank=#{erank}
+                </if>
+                <if test="eengine != null and eengine!=''">
+                    and eengine=#{eengine}
+                </if>
+                <if test="espeed != null and espeed!=''">
+                    and espeed=#{espeed}
+                </if>
+                <if test="estructure != null and estructure!=''">
+                    and estructure=#{estructure}
+                </if>
+        </trim>
+    </select>
+
+    <insert id="insertEssential" parameterType="com.zb.pojo.Essential">
+        insert into essential(
+                        ecid,
+                        eidentity,
+                        erank,
+                        eengine,
+                        espeed,
+                        estructure)
+        values(
+                     #{ecid},
+                     #{eidentity},
+                     #{erank},
+                     #{eengine},
+                     #{espeed},
+                    #{estructure})
+    </insert>
+
+    <update id="updateEssential" parameterType="com.zb.pojo.Essential">
+        update essential
+        <trim prefix="set" suffixOverrides="," suffix="where id=#{id}">
+                        <if test="ecid != null and ecid!=''">
+                            ecid=#{ecid},
+                        </if>
+                        <if test="eidentity != null and eidentity!=''">
+                            eidentity=#{eidentity},
+                        </if>
+                        <if test="erank != null and erank!=''">
+                            erank=#{erank},
+                        </if>
+                        <if test="eengine != null and eengine!=''">
+                            eengine=#{eengine},
+                        </if>
+                        <if test="espeed != null and espeed!=''">
+                            espeed=#{espeed},
+                        </if>
+                        <if test="estructure != null and estructure!=''">
+                            estructure=#{estructure}
+                        </if>
+        </trim>
+    </update>
+</mapper>
