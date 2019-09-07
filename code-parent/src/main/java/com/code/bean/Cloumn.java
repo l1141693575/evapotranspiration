@@ -5,6 +5,8 @@ import com.code.util.StringUtils;
 
 
 public class Cloumn {
+    //456
+    //654685468464654
     //a
     //sdzlmrwxg
     private String cloumnName;
@@ -43,7 +45,7 @@ public class Cloumn {
     public String getJavaType() {
         return TypeConstant.getJavaType(this.cloumnType);
     }
-
+    //
     public String getUpperCasecloumnName(){
         return StringUtils.captureName(getFieldName());
     }
