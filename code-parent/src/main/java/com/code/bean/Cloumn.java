@@ -5,7 +5,7 @@ import com.code.util.StringUtils;
 
 
 public class Cloumn {
-
+    //a
     private String cloumnName;
     private String comment;
     private String cloumnType;
