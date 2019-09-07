@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
 public interface BrandMapper {
-
+	//a
 	public Brand getBrandById(@Param(value = "id") Integer id)throws Exception;
 
 	public List<Brand>	getBrandListByMap(Map<String,Object> param)throws Exception;
