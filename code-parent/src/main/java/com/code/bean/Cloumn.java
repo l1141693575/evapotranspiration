@@ -10,7 +10,7 @@ public class Cloumn {
     private String cloumnName;
     private String comment;
     private String cloumnType;
-
+    //a
     public String getCloumnName() {
         return cloumnName;
     }
