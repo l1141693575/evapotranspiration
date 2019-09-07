@@ -8,6 +8,7 @@ public class Cloumn {
     //a
     //sdzlmrwxg
     private String cloumnName;
+    //asdasdasd
     private String comment;
     private String cloumnType;
     //a
