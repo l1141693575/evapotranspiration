@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="beede105-37a7-45c4-8f8f-b4df075b0b94" name="Default Changelist" comment="" />
+    <list default="true" id="beede105-37a7-45c4-8f8f-b4df075b0b94" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestBrandClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestCarClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestChassisClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestDetailsClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEasilyClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEngineClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEssentialClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestGreatClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestPhotoClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestSeriesClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/BrandClientFallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/CarClientFallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/ChassisClientFallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/DetailsClientFallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EasilyClientFallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EngineClientFallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EssentialClientFallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/GreatClientFallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/PhotoClientFallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/SeriesClientFallBack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/BrandMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/CarMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/ChassisMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/DetailsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/EasilyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/EngineMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/EssentialMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/GreatMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/PhotoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/SeriesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/BrandMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/CarMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/ChassisMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/DetailsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/EasilyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/EngineMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/EssentialMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/GreatMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/PhotoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/SeriesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Brand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Chassis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Details.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Easily.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Essential.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Great.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Photo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Series.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/second_dao/target/" />
@@ -18,8 +70,8 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/second_dao/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="545">
@@ -31,137 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/second_module/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
+            <state relative-caret-position="390">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Brand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1500">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
-                <element signature="e#1095#1096#0" expanded="true" />
-                <element signature="e#1126#1127#0" expanded="true" />
-                <element signature="e#1167#1168#0" expanded="true" />
-                <element signature="e#1197#1198#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
-                <element signature="e#1260#1261#0" expanded="true" />
-                <element signature="e#1304#1305#0" expanded="true" />
-                <element signature="e#1338#1339#0" expanded="true" />
-                <element signature="e#1370#1371#0" expanded="true" />
-                <element signature="e#1404#1405#0" expanded="true" />
-                <element signature="e#1445#1446#0" expanded="true" />
-                <element signature="e#1475#1476#0" expanded="true" />
-                <element signature="e#1506#1507#0" expanded="true" />
-                <element signature="e#1538#1539#0" expanded="true" />
-                <element signature="e#1583#1584#0" expanded="true" />
-                <element signature="e#1617#1618#0" expanded="true" />
-                <element signature="e#1650#1651#0" expanded="true" />
-                <element signature="e#1684#1685#0" expanded="true" />
-                <element signature="e#1728#1729#0" expanded="true" />
-                <element signature="e#1762#1763#0" expanded="true" />
-                <element signature="e#1794#1795#0" expanded="true" />
-                <element signature="e#1828#1829#0" expanded="true" />
-                <element signature="e#1876#1877#0" expanded="true" />
-                <element signature="e#1914#1915#0" expanded="true" />
-                <element signature="e#1948#1949#0" expanded="true" />
-                <element signature="e#1984#1985#0" expanded="true" />
-                <element signature="e#2028#2029#0" expanded="true" />
-                <element signature="e#2062#2063#0" expanded="true" />
-                <element signature="e#2094#2095#0" expanded="true" />
-                <element signature="e#2128#2129#0" expanded="true" />
-                <element signature="e#2179#2180#0" expanded="true" />
-                <element signature="e#2219#2220#0" expanded="true" />
-                <element signature="e#2255#2256#0" expanded="true" />
-                <element signature="e#2292#2293#0" expanded="true" />
-                <element signature="e#2335#2336#0" expanded="true" />
-                <element signature="e#2367#2368#0" expanded="true" />
-                <element signature="e#2399#2400#0" expanded="true" />
-                <element signature="e#2432#2433#0" expanded="true" />
-                <element signature="e#2475#2476#0" expanded="true" />
-                <element signature="e#2507#2508#0" expanded="true" />
-                <element signature="e#2539#2540#0" expanded="true" />
-                <element signature="e#2572#2573#0" expanded="true" />
-                <element signature="e#2617#2618#0" expanded="true" />
-                <element signature="e#2651#2652#0" expanded="true" />
-                <element signature="e#2684#2685#0" expanded="true" />
-                <element signature="e#2718#2719#0" expanded="true" />
-                <element signature="e#2769#2770#0" expanded="true" />
-                <element signature="e#2809#2810#0" expanded="true" />
-                <element signature="e#2845#2846#0" expanded="true" />
-                <element signature="e#2882#2883#0" expanded="true" />
-                <element signature="e#2927#2928#0" expanded="true" />
-                <element signature="e#2961#2962#0" expanded="true" />
-                <element signature="e#2994#2995#0" expanded="true" />
-                <element signature="e#3028#3029#0" expanded="true" />
-                <element signature="e#3085#3086#0" expanded="true" />
-                <element signature="e#3131#3132#0" expanded="true" />
-                <element signature="e#3170#3171#0" expanded="true" />
-                <element signature="e#3210#3211#0" expanded="true" />
-                <element signature="e#3263#3264#0" expanded="true" />
-                <element signature="e#3305#3306#0" expanded="true" />
-                <element signature="e#3342#3343#0" expanded="true" />
-                <element signature="e#3380#3381#0" expanded="true" />
-                <element signature="e#3425#3426#0" expanded="true" />
-                <element signature="e#3459#3460#0" expanded="true" />
-                <element signature="e#3492#3493#0" expanded="true" />
-                <element signature="e#3526#3527#0" expanded="true" />
-                <element signature="e#3573#3574#0" expanded="true" />
-                <element signature="e#3609#3610#0" expanded="true" />
-                <element signature="e#3643#3644#0" expanded="true" />
-                <element signature="e#3678#3679#0" expanded="true" />
-                <element signature="e#3723#3724#0" expanded="true" />
-                <element signature="e#3757#3758#0" expanded="true" />
-                <element signature="e#3790#3791#0" expanded="true" />
-                <element signature="e#3824#3825#0" expanded="true" />
-                <element signature="e#3875#3876#0" expanded="true" />
-                <element signature="e#3915#3916#0" expanded="true" />
-                <element signature="e#3951#3952#0" expanded="true" />
-                <element signature="e#3988#3989#0" expanded="true" />
-                <element signature="e#4039#4040#0" expanded="true" />
-                <element signature="e#4079#4080#0" expanded="true" />
-                <element signature="e#4115#4116#0" expanded="true" />
-                <element signature="e#4152#4153#0" expanded="true" />
-                <element signature="e#4200#4201#0" expanded="true" />
-                <element signature="e#4240#4241#0" expanded="true" />
-                <element signature="e#4273#4274#0" expanded="true" />
-                <element signature="e#4310#4311#0" expanded="true" />
-                <element signature="e#4359#4360#0" expanded="true" />
-                <element signature="e#4397#4398#0" expanded="true" />
-                <element signature="e#4432#4433#0" expanded="true" />
-                <element signature="e#4468#4469#0" expanded="true" />
-                <element signature="e#4513#4514#0" expanded="true" />
-                <element signature="e#4547#4548#0" expanded="true" />
-                <element signature="e#4409#4410#0" expanded="true" />
-                <element signature="e#4443#4444#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestBrandClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -180,33 +103,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="570">
               <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/BrandMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/CarMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/EasilyMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -231,6 +127,7 @@
         <option value="$PROJECT_DIR$/second_module/pom.xml" />
         <option value="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Car.java" />
         <option value="$PROJECT_DIR$/second_client/pom.xml" />
+        <option value="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/CarMapper.java" />
       </list>
     </option>
   </component>
@@ -286,12 +183,208 @@
               <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
               <item name="second_common" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+              <item name="fallback" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,7 +421,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567825483143</updated>
-      <workItem from="1567825485796" duration="3307000" />
+      <workItem from="1567825485796" duration="4836000" />
+      <workItem from="1568537476108" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="//初步公共模块">
       <created>1567828211489</created>
@@ -341,25 +435,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3307000" />
+    <option name="totallyTimeSpent" value="5153000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29317698" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -367,15 +454,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" visible="true" weight="0.30063966" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.11098398" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.1130064" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,31 +486,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/EasilyMapper.java">
+    <entry file="file://$PROJECT_DIR$/second_module/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/BrandMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/CarMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second_dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="390">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -428,123 +500,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second_module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1500">
+        <state relative-caret-position="30">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1445#1446#0" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
-            <element signature="e#1506#1507#0" expanded="true" />
+            <element signature="e#1504#1505#0" expanded="true" />
             <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-            <element signature="e#1617#1618#0" expanded="true" />
-            <element signature="e#1650#1651#0" expanded="true" />
-            <element signature="e#1684#1685#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1794#1795#0" expanded="true" />
-            <element signature="e#1828#1829#0" expanded="true" />
-            <element signature="e#1876#1877#0" expanded="true" />
-            <element signature="e#1914#1915#0" expanded="true" />
-            <element signature="e#1948#1949#0" expanded="true" />
-            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#1994#1995#0" expanded="true" />
             <element signature="e#2028#2029#0" expanded="true" />
-            <element signature="e#2062#2063#0" expanded="true" />
-            <element signature="e#2094#2095#0" expanded="true" />
-            <element signature="e#2128#2129#0" expanded="true" />
-            <element signature="e#2179#2180#0" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-            <element signature="e#2292#2293#0" expanded="true" />
-            <element signature="e#2335#2336#0" expanded="true" />
-            <element signature="e#2367#2368#0" expanded="true" />
-            <element signature="e#2399#2400#0" expanded="true" />
-            <element signature="e#2432#2433#0" expanded="true" />
-            <element signature="e#2475#2476#0" expanded="true" />
-            <element signature="e#2507#2508#0" expanded="true" />
-            <element signature="e#2539#2540#0" expanded="true" />
-            <element signature="e#2572#2573#0" expanded="true" />
-            <element signature="e#2617#2618#0" expanded="true" />
-            <element signature="e#2651#2652#0" expanded="true" />
-            <element signature="e#2684#2685#0" expanded="true" />
-            <element signature="e#2718#2719#0" expanded="true" />
-            <element signature="e#2769#2770#0" expanded="true" />
-            <element signature="e#2809#2810#0" expanded="true" />
-            <element signature="e#2845#2846#0" expanded="true" />
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2927#2928#0" expanded="true" />
-            <element signature="e#2961#2962#0" expanded="true" />
-            <element signature="e#2994#2995#0" expanded="true" />
-            <element signature="e#3028#3029#0" expanded="true" />
-            <element signature="e#3085#3086#0" expanded="true" />
-            <element signature="e#3131#3132#0" expanded="true" />
-            <element signature="e#3170#3171#0" expanded="true" />
-            <element signature="e#3210#3211#0" expanded="true" />
-            <element signature="e#3263#3264#0" expanded="true" />
-            <element signature="e#3305#3306#0" expanded="true" />
-            <element signature="e#3342#3343#0" expanded="true" />
-            <element signature="e#3380#3381#0" expanded="true" />
-            <element signature="e#3425#3426#0" expanded="true" />
-            <element signature="e#3459#3460#0" expanded="true" />
-            <element signature="e#3492#3493#0" expanded="true" />
-            <element signature="e#3526#3527#0" expanded="true" />
-            <element signature="e#3573#3574#0" expanded="true" />
-            <element signature="e#3609#3610#0" expanded="true" />
-            <element signature="e#3643#3644#0" expanded="true" />
-            <element signature="e#3678#3679#0" expanded="true" />
-            <element signature="e#3723#3724#0" expanded="true" />
-            <element signature="e#3757#3758#0" expanded="true" />
-            <element signature="e#3790#3791#0" expanded="true" />
-            <element signature="e#3824#3825#0" expanded="true" />
-            <element signature="e#3875#3876#0" expanded="true" />
-            <element signature="e#3915#3916#0" expanded="true" />
-            <element signature="e#3951#3952#0" expanded="true" />
-            <element signature="e#3988#3989#0" expanded="true" />
-            <element signature="e#4039#4040#0" expanded="true" />
-            <element signature="e#4079#4080#0" expanded="true" />
+            <element signature="e#4075#4076#0" expanded="true" />
             <element signature="e#4115#4116#0" expanded="true" />
-            <element signature="e#4152#4153#0" expanded="true" />
-            <element signature="e#4200#4201#0" expanded="true" />
-            <element signature="e#4240#4241#0" expanded="true" />
-            <element signature="e#4273#4274#0" expanded="true" />
-            <element signature="e#4310#4311#0" expanded="true" />
-            <element signature="e#4359#4360#0" expanded="true" />
-            <element signature="e#4397#4398#0" expanded="true" />
-            <element signature="e#4432#4433#0" expanded="true" />
-            <element signature="e#4468#4469#0" expanded="true" />
-            <element signature="e#4513#4514#0" expanded="true" />
-            <element signature="e#4547#4548#0" expanded="true" />
-            <element signature="e#4409#4410#0" expanded="true" />
-            <element signature="e#4443#4444#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestBrandClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="180">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -555,13 +533,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestBrandClient.java">
+    <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/BrandMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="450">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/EasilyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/CarMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
