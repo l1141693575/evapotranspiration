@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="second_client" />
         <module name="second_module" />
+        <module name="second_service" />
         <module name="second_dao" />
       </profile>
     </annotationProcessing>

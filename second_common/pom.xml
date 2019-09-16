@@ -12,6 +12,7 @@
         <module>second_dao</module>
         <module>second_client</module>
         <module>second_module</module>
+        <module>second_service</module>
     </modules>
 
     <parent>

@@ -2,63 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beede105-37a7-45c4-8f8f-b4df075b0b94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/second_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_service/src/main/java/com/zb/EsQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_car.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_provider/src/main/java/com/zb/SeachProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_provider/src/main/java/com/zb/config/ElasticsearchConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/java/com/code/Genterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/java/com/code/bean/Cloumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/java/com/code/bean/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/java/com/code/constant/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/java/com/code/constant/TypeConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/java/com/code/handler/MvcHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/java/com/code/handler/TableHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/java/com/code/util/FreeMarkerUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/java/com/code/util/HelloFreeMarker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/java/com/code/util/PropertiesUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/java/com/code/util/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/resources/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/resources/dm/clazzMapper.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/resources/dm/client_dm_fallback.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/resources/dm/client_dm_user.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/resources/dm/mapper.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/resources/dm/model.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-parent/src/main/resources/dm/service_dm.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestBrandClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestCarClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestChassisClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestDetailsClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEasilyClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEngineClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEssentialClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestGreatClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestPhotoClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestSeriesClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/BrandClientFallBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/CarClientFallBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/ChassisClientFallBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/DetailsClientFallBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EasilyClientFallBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EngineClientFallBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EssentialClientFallBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/GreatClientFallBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/PhotoClientFallBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/SeriesClientFallBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/BrandMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/CarMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/ChassisMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/DetailsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/EasilyMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/EngineMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/EssentialMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/GreatMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/PhotoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/SeriesMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/BrandMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/CarMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/ChassisMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/DetailsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/EasilyMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/EngineMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/EssentialMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/GreatMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/PhotoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/SeriesMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Brand.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Chassis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Details.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Easily.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Engine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Essential.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Great.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Photo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Series.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/second_dao/target/" />
     <ignored path="$PROJECT_DIR$/second_client/target/" />
     <ignored path="$PROJECT_DIR$/second_module/target/" />
+    <ignored path="$PROJECT_DIR$/second_service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,43 +53,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/second_service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/BrandMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/second_dao/pom.xml">
+        <entry file="file://$PROJECT_DIR$/second_service/src/main/java/com/zb/EsQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second_module/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second_client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="150">
+              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -113,8 +90,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Long</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Integer</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -128,6 +114,28 @@
         <option value="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Car.java" />
         <option value="$PROJECT_DIR$/second_client/pom.xml" />
         <option value="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/CarMapper.java" />
+        <option value="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Great.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestBrandClient.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestCarClient.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestChassisClient.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestDetailsClient.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEasilyClient.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEngineClient.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEssentialClient.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestGreatClient.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestPhotoClient.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestSeriesClient.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/BrandClientFallBack.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/CarClientFallBack.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/ChassisClientFallBack.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/DetailsClientFallBack.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EasilyClientFallBack.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EngineClientFallBack.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EssentialClientFallBack.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/GreatClientFallBack.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/PhotoClientFallBack.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/SeriesClientFallBack.java" />
+        <option value="$PROJECT_DIR$/second_service/src/main/java/com/zb/EsQuery.java" />
       </list>
     </option>
   </component>
@@ -160,14 +168,21 @@
           <item name="second_client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="second_common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="second_common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1157" />
-    <option name="y" value="43" />
-    <option name="width" value="768" />
+    <option name="width" value="512" />
     <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -176,6 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,208 +199,11 @@
               <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
               <item name="second_common" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zb" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zb" type="462c0819:PsiDirectoryNode" />
-              <item name="fallback" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zb" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zb" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,7 +241,8 @@
       <option name="presentableId" value="Default" />
       <updated>1567825483143</updated>
       <workItem from="1567825485796" duration="4836000" />
-      <workItem from="1568537476108" duration="317000" />
+      <workItem from="1568537476108" duration="2130000" />
+      <workItem from="1568594580463" duration="520000" />
     </task>
     <task id="LOCAL-00001" summary="//初步公共模块">
       <created>1567828211489</created>
@@ -431,16 +251,23 @@
       <option name="project" value="LOCAL" />
       <updated>1567828211489</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="//初步公共模块">
+      <created>1568537916222</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568537916222</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5153000" />
+    <option name="totallyTimeSpent" value="7486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29317698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29637527" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -449,7 +276,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16481069" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -486,13 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second_module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Brand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -516,34 +336,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestBrandClient.java">
+    <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/EasilyMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" column="13" selection-start-line="16" selection-start-column="3" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Great.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/second_client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="210">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/BrandMapper.java">
+    <entry file="file://$PROJECT_DIR$/second_dao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="531">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/EasilyMapper.java">
+    <entry file="file://$PROJECT_DIR$/second_module/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="60">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -554,17 +391,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/ChassisMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second_dao/pom.xml">
+    <entry file="jar://D:/apache-maven-3.6.1/repository/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="389">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestBrandClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestCarClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestChassisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestDetailsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEasilyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEngineClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEssentialClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestGreatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestPhotoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestSeriesClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/BrandClientFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/CarClientFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/ChassisClientFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/DetailsClientFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EasilyClientFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EngineClientFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/GreatClientFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/PhotoClientFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/SeriesClientFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EssentialClientFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/BrandMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_service/src/main/java/com/zb/EsQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -629,7 +630,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>second_dao</last-edited>
+          <last-edited>second_client</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
