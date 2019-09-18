@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 @Component
 public class EsQuery implements RestEsQuery {
+
     @Override
     public List<Car> queryManyBetweenMatch(Map<String, Object> map) throws IOException {
         return null;

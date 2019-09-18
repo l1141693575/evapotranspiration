@@ -7,5 +7,5 @@ import java.util.List;
 import java.util.Map;
 
 public interface EsQuery {
-    public     Map<String, Object>  queryManyBetweenMatch(Map<String,Object> map) throws IOException;
+    public    List<Car>  queryManyBetweenMatch(Map<String,Object> map) throws IOException;
 }

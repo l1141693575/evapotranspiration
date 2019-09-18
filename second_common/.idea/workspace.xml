@@ -2,27 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beede105-37a7-45c4-8f8f-b4df075b0b94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEsQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EsQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_dto/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_dto/second_dto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_dto/src/main/java/com/zb/Dto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_dto/src/main/java/com/zb/DtoUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_dto/src/main/java/com/zb/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_util/second_util.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_util/src/main/java/com/zb/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_util/src/main/java/com/zb/util/BigDecimalUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_util/src/main/java/com/zb/util/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_util/src/main/java/com/zb/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_util/src/main/java/com/zb/util/EmptyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_util/src/main/java/com/zb/util/IdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_util/src/main/java/com/zb/util/MD5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_util/src/main/java/com/zb/util/MqUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_util/src/main/java/com/zb/util/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_util/src/main/java/com/zb/util/TokenValidationFailedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_util/src/main/java/com/zb/util/UrlUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second_util/src/main/java/com/zb/util/UserLoginFailedException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../second_seach_car/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../second_seach_car/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../second_seach_car/.idea/misc.xml" afterDir="false" />
@@ -32,8 +11,15 @@
       <change afterPath="$PROJECT_DIR$/../second_seach_car/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_car.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_consumer/src/main/java/com/zb/SeachConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_consumer/src/main/java/com/zb/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_consumer/src/main/java/com/zb/controller/SeachController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_consumer/src/main/java/com/zb/service/SeachService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_consumer/src/main/java/com/zb/service/impl/SeachServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_consumer/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_provider/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_provider/src/main/java/com/zb/SeachProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_provider/src/main/java/com/zb/config/CorsConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_provider/src/main/java/com/zb/config/ElasticsearchConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_provider/src/main/java/com/zb/service/RestEsQuery.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_provider/src/main/resources/application.yml" afterDir="false" />
@@ -55,11 +41,9 @@
       <change beforePath="$PROJECT_DIR$/../code-parent/src/main/resources/dm/mapper.ftl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../code-parent/src/main/resources/dm/model.ftl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../code-parent/src/main/resources/dm/service_dm.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/second_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEsQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEsQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EsQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EsQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/second_service/src/main/java/com/zb/EsQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/second_service/src/main/java/com/zb/EsQuery.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -82,10 +66,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second_service/src/main/java/com/zb/EsQuery.java">
+        <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEsQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+            <state relative-caret-position="213">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,80 +78,91 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second_util/pom.xml">
+        <entry file="file://$PROJECT_DIR$/second_service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1526">
-              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+            <state relative-caret-position="307">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second_util/src/main/java/com/zb/config/RedisConfig.java">
+        <entry file="file://$PROJECT_DIR$/second_client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="19" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EasilyClientFallBack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestGreatClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EngineClientFallBack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="54" column="26" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="26" />
               <folding>
-                <element signature="e#567#583#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1068#1069#0" expanded="true" />
+                <element signature="e#1100#1101#0" expanded="true" />
+                <element signature="e#1150#1151#0" expanded="true" />
+                <element signature="e#1192#1193#0" expanded="true" />
+                <element signature="e#1219#1220#0" expanded="true" />
+                <element signature="e#1245#1246#0" expanded="true" />
+                <element signature="e#1280#1281#0" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/second_dao/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/second_dto/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/second_dto/src/main/java/com/zb/Dto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-            </state>
+            <state relative-caret-position="-53" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second_util/src/main/java/com/zb/util/BigDecimalUtil.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second_util/src/main/java/com/zb/util/RedisUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1673">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEngineClient.java">
+        <entry file="file://$PROJECT_DIR$/second_module/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestBrandClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestCarClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -188,6 +183,7 @@
       <find>mycloud-order-second-seach-second-seach-provider</find>
       <find>provider</find>
       <find>mycloud-order-provider</find>
+      <find>client</find>
     </findStrings>
     <replaceStrings>
       <replace>Integer</replace>
@@ -201,9 +197,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/second_dao/pom.xml" />
         <option value="$PROJECT_DIR$/second_module/pom.xml" />
-        <option value="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Car.java" />
         <option value="$PROJECT_DIR$/second_client/pom.xml" />
         <option value="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/CarMapper.java" />
         <option value="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Great.java" />
@@ -228,13 +222,15 @@
         <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestSeriesClient.java" />
         <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestPhotoClient.java" />
         <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestGreatClient.java" />
-        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEsQuery.java" />
-        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EsQuery.java" />
-        <option value="$PROJECT_DIR$/second_service/src/main/java/com/zb/EsQuery.java" />
         <option value="$PROJECT_DIR$/second_util/src/main/java/com/zb/util/MD5.java" />
         <option value="$PROJECT_DIR$/second_util/src/main/java/com/zb/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/second_util/pom.xml" />
         <option value="$PROJECT_DIR$/second_dto/src/main/java/com/zb/Dto.java" />
+        <option value="$PROJECT_DIR$/second_service/src/main/java/com/zb/EsQuery.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEsQuery.java" />
+        <option value="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EsQuery.java" />
+        <option value="$PROJECT_DIR$/second_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Car.java" />
       </list>
     </option>
   </component>
@@ -281,8 +277,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1443" />
-    <option name="y" value="364" />
+    <option name="x" value="776" />
+    <option name="y" value="76" />
     <option name="width" value="512" />
     <option name="height" value="724" />
   </component>
@@ -292,7 +288,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -304,25 +299,25 @@
             <path>
               <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
               <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dto" type="462c0819:PsiDirectoryNode" />
+              <item name="second_client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
               <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dto" type="462c0819:PsiDirectoryNode" />
+              <item name="second_client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
               <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dto" type="462c0819:PsiDirectoryNode" />
+              <item name="second_client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
               <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dto" type="462c0819:PsiDirectoryNode" />
+              <item name="second_client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -330,16 +325,160 @@
             <path>
               <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
               <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dto" type="462c0819:PsiDirectoryNode" />
+              <item name="second_client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+              <item name="fallback" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second_common" type="462c0819:PsiDirectoryNode" />
+              <item name="second_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zb" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,7 +488,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/second_dto/src/main/java/com/zb" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
@@ -387,7 +526,8 @@
       <workItem from="1568537476108" duration="2130000" />
       <workItem from="1568594580463" duration="4431000" />
       <workItem from="1568625600326" duration="1226000" />
-      <workItem from="1568767458231" duration="605000" />
+      <workItem from="1568767458231" duration="3616000" />
+      <workItem from="1568776892260" duration="2139000" />
     </task>
     <task id="LOCAL-00001" summary="//初步公共模块">
       <created>1567828211489</created>
@@ -410,16 +550,23 @@
       <option name="project" value="LOCAL" />
       <updated>1568595132039</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="//完整版common">
+      <created>1568768103353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568768103354</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13228000" />
+    <option name="totallyTimeSpent" value="18378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32675907" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19509594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -428,7 +575,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.11804009" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3207127" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -455,7 +602,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="//初步公共模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="//初步公共模块" />
+    <MESSAGE value="//完整版common" />
+    <option name="LAST_COMMIT_MESSAGE" value="//完整版common" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/DetailsMapper.java">
@@ -469,22 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1994#1995#0" expanded="true" />
-            <element signature="e#2028#2029#0" expanded="true" />
-            <element signature="e#4075#4076#0" expanded="true" />
-            <element signature="e#4115#4116#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -505,27 +637,6 @@
             <element signature="e#937#938#0" expanded="true" />
             <element signature="e#974#975#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second_client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second_dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second_module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -561,20 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EasilyClientFallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EngineClientFallBack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -620,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/BrandClientFallBack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -648,44 +738,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestGreatClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEssentialClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestChassisClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEsQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EsQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,16 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second_service/src/main/java/com/zb/EsQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="75" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/second_util/src/main/java/com/zb/util/MD5.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -764,23 +810,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second_util/src/main/java/com/zb/config/RedisConfig.java">
+    <entry file="file://$PROJECT_DIR$/second_service/src/main/java/com/zb/EsQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#567#583#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second_dto/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEssentialClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EsQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_util/src/main/java/com/zb/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/second_dto/src/main/java/com/zb/Dto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="360">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEsQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_dto/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EngineClientFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EasilyClientFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestGreatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -845,7 +994,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>second_dto</last-edited>
+          <last-edited>second_service</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
