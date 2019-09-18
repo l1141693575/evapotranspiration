@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="second_util" />
         <module name="second_client" />
-        <module name="second_module" />
+        <module name="second_dto" />
         <module name="second_service" />
         <module name="second_dao" />
+        <module name="second_module" />
       </profile>
     </annotationProcessing>
   </component>

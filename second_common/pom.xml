@@ -13,6 +13,8 @@
         <module>second_client</module>
         <module>second_module</module>
         <module>second_service</module>
+        <module>second_util</module>
+        <module>second_dto</module>
     </modules>
 
     <parent>

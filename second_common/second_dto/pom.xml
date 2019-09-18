@@ -9,13 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>second_service</artifactId>
-<dependencies>
-    <dependency>
-        <artifactId>second_module</artifactId>
-        <groupId>com.zb</groupId>
-        <version>1.0-SNAPSHOT</version>
-    </dependency>
-</dependencies>
+    <artifactId>second_dto</artifactId>
+
 
 </project>
