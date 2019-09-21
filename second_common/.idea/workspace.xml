@@ -2,6 +2,166 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="beede105-37a7-45c4-8f8f-b4df075b0b94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestBrandClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestCarClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestChassisClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestDetailsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEasilyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEngineClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestEssentialClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestGreatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestPhotoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/client/RestSeriesClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/BrandClientFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/CarClientFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/ChassisClientFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/DetailsClientFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EasilyClientFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EngineClientFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/EssentialClientFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/GreatClientFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/PhotoClientFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/src/main/java/com/zb/fallback/SeriesClientFallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/client/RestBrandClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/client/RestCarClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/client/RestChassisClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/client/RestDetailsClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/client/RestEasilyClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/client/RestEngineClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/client/RestEsQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/client/RestEssentialClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/client/RestGreatClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/client/RestPhotoClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/client/RestSeriesClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/fallback/BrandClientFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/fallback/CarClientFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/fallback/ChassisClientFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/fallback/DetailsClientFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/fallback/EasilyClientFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/fallback/EngineClientFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/fallback/EsQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/fallback/EssentialClientFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/fallback/GreatClientFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/fallback/PhotoClientFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/classes/com/zb/fallback/SeriesClientFallBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_client/target/second_client-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/CarMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/ChassisMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/DetailsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/EasilyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/EngineMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/EssentialMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/GreatMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/PhotoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/SeriesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/CarMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/ChassisMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/DetailsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/EasilyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/EngineMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/EssentialMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/GreatMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/PhotoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/src/main/resources/mapper/SeriesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/com/zb/mapper/BrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/com/zb/mapper/CarMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/com/zb/mapper/ChassisMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/com/zb/mapper/DetailsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/com/zb/mapper/EasilyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/com/zb/mapper/EngineMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/com/zb/mapper/EssentialMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/com/zb/mapper/GreatMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/com/zb/mapper/PhotoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/com/zb/mapper/SeriesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/mapper/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/mapper/CarMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/mapper/ChassisMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/mapper/DetailsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/mapper/EasilyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/mapper/EngineMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/mapper/EssentialMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/mapper/GreatMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/mapper/PhotoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/classes/mapper/SeriesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dao/target/second_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dto/target/classes/com/zb/Dto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dto/target/classes/com/zb/DtoUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dto/target/classes/com/zb/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dto/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dto/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dto/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dto/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_dto/target/second_dto-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Chassis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Details.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Easily.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Essential.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Great.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Photo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/src/main/java/com/zb/pojo/Series.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/target/classes/com/zb/pojo/Brand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/target/classes/com/zb/pojo/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/target/classes/com/zb/pojo/Chassis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/target/classes/com/zb/pojo/Details.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/target/classes/com/zb/pojo/Easily.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/target/classes/com/zb/pojo/Engine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/target/classes/com/zb/pojo/Essential.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/target/classes/com/zb/pojo/Great.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/target/classes/com/zb/pojo/Photo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/target/classes/com/zb/pojo/Series.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_module/target/second_module-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_service/target/classes/com/zb/EsQuery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_service/target/second_service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/BigDecimalUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/BigDecimalUtil$BigDecimalOprations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/BigDecimalUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/Constants$ErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/Constants$MessageStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/Constants$OrderStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/Constants$QgStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/Constants$QueueName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/Constants$Redis_Expire.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/Constants$StockStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/Constants$User_AUTH.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/Constants$WxpayStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/EmptyUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/MD5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/MqUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/RedisUtils$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/RedisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/TokenValidationFailedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/UrlUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/classes/com/zb/util/UserLoginFailedException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/second_util/target/second_util-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../code-parent/src/main/java/com/code/Genterator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../code-parent/src/main/java/com/code/bean/Cloumn.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../code-parent/src/main/java/com/code/bean/Table.java" beforeDir="false" />
@@ -20,7 +180,6 @@
       <change beforePath="$PROJECT_DIR$/../code-parent/src/main/resources/dm/mapper.ftl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../code-parent/src/main/resources/dm/model.ftl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../code-parent/src/main/resources/dm/service_dm.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../second_seach_car/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../second_seach_car/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../second_seach_car/second_seach_consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_consumer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../second_seach_car/second_seach_consumer/src/main/java/com/zb/controller/SeachController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../second_seach_car/second_seach_consumer/src/main/java/com/zb/controller/SeachController.java" afterDir="false" />
@@ -106,7 +265,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/second_dto/src/main/java/com/zb/Dto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="271">
               <caret line="18" column="18" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
@@ -160,6 +319,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -273,25 +435,20 @@
             <path>
               <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
               <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dto" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
               <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dto" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
               <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dto" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -299,7 +456,7 @@
             <path>
               <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
               <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dto" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -308,7 +465,7 @@
             <path>
               <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
               <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_dto" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -318,103 +475,13 @@
             <path>
               <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
               <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_module" type="462c0819:PsiDirectoryNode" />
+              <item name="second_dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zb" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="second_common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="second_common" type="462c0819:PsiDirectoryNode" />
-              <item name="second_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zb" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -471,7 +538,7 @@
       <workItem from="1568776892260" duration="2257000" />
       <workItem from="1568854637354" duration="1816000" />
       <workItem from="1568886650443" duration="170000" />
-      <workItem from="1569028747326" duration="592000" />
+      <workItem from="1569028747326" duration="993000" />
     </task>
     <task id="LOCAL-00001" summary="//初步公共模块">
       <created>1567828211489</created>
@@ -515,15 +582,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568886682279</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="//完整版common1">
+      <created>1569029769019</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569029769019</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21074000" />
+    <option name="totallyTimeSpent" value="21475000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -534,7 +607,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3207127" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.055679288" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -562,7 +635,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="//初步公共模块" />
     <MESSAGE value="//完整版common" />
-    <option name="LAST_COMMIT_MESSAGE" value="//完整版common" />
+    <MESSAGE value="//完整版common1" />
+    <option name="LAST_COMMIT_MESSAGE" value="//完整版common1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/second_dao/src/main/java/com/zb/mapper/DetailsMapper.java">
@@ -877,7 +951,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/second_dto/src/main/java/com/zb/Dto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="271">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>

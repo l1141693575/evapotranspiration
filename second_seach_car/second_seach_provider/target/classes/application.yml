@@ -1,0 +1,19 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: second-seach-provider
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: ok
+    url: jdbc:mysql://192.168.199.243:3306/second
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:ok@localhost:7001/eureka/
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+es:
+  hostlist: 192.168.199.243:9200

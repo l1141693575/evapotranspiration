@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: my-conifg
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/l1141693575/lyhfistproject.git
+
+server:
+  port: 9003
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/ #,http://root:ok@localhost:7002/eureka/,http://root:ok@localhost:7003/eureka/

@@ -20,7 +20,11 @@
         <artifactId>spring-cloud-starter-eureka</artifactId>
     </dependency>
 
-
+    <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>1.2.58</version>
+    </dependency>
     <dependency>
         <artifactId>second_client</artifactId>
         <groupId>com.zb</groupId>

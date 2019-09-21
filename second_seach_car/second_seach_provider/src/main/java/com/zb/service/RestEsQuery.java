@@ -51,9 +51,9 @@ public class RestEsQuery implements EsQuery {
         RangeQueryBuilder price = null;
         //是否卖出精确查询
         TermQueryBuilder cstate = null;
-        //只查询出未卖出的车辆
+              //只查询出未卖出的车辆
         cstate = QueryBuilders.termQuery("cstate", 0);
-         boolQueryBuilder.must(cstate);
+        boolQueryBuilder.must(cstate);
 
          if (map.get("bid") != null && !map.get("bid").equals("")) {
             brand = QueryBuilders.termQuery("bid", map.get("bid"));
@@ -109,6 +109,7 @@ public class RestEsQuery implements EsQuery {
         SearchResponse searchResponse = restHighLevelClient.search(searchRequest);
         SearchHits hits = searchResponse.getHits();
         SearchHit[] searchHits = hits.getHits();
+        System.out.println(searchHits.length);
         for (SearchHit hit : searchHits) {
             String type = hit.getType();
             String id = hit.getId();
@@ -134,6 +135,7 @@ public class RestEsQuery implements EsQuery {
             car.setCstate(Integer.parseInt(cstatee));
             list.add(car);
         }
+        System.out.println(list.size());
         return list;
     }
 }
