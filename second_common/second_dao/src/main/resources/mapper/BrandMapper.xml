@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zb.mapper.BrandMapper">
+
+    <select id="getBrandById" resultType="com.zb.pojo.Brand">
+        select
+                bid as bid,
+                bname as bname
+        from brand
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="id != null">
+                and id=#{id}
+            </if>
+        </trim>
+    </select>
+
+    <select id="getBrandListByMap" resultType="com.zb.pojo.Brand" parameterType="java.util.Map">
+        select
+                bid as bid,
+                bname as bname
+        from brand
+        <trim prefix="where" prefixOverrides="and | or">
+                <if test="bid != null and bid!=''">
+                    and bid=#{bid}
+                </if>
+                <if test="bname != null and bname!=''">
+                    and bname=#{bname}
+                </if>
+        </trim>
+        <if test="beginPos != null and pageSize != null ">
+            limit #{beginPos},#{pageSize}
+        </if>
+    </select>
+
+    <select id="getBrandCountByMap" resultType="Integer"  parameterType="java.util.Map">
+        select count(*) from brand
+        <trim prefix="where" prefixOverrides="and | or">
+                <if test="bid != null and bid!=''">
+                    and bid=#{bid}
+                </if>
+                <if test="bname != null and bname!=''">
+                    and bname=#{bname}
+                </if>
+        </trim>
+    </select>
+
+    <insert id="insertBrand" parameterType="com.zb.pojo.Brand">
+        insert into brand(
+                        bid,
+                        bname)
+        values(
+                     #{bid},
+                    #{bname})
+    </insert>
+
+    <update id="updateBrand" parameterType="com.zb.pojo.Brand">
+        update brand
+        <trim prefix="set" suffixOverrides="," suffix="where id=#{id}">
+                        <if test="bid != null and bid!=''">
+                            bid=#{bid},
+                        </if>
+                        <if test="bname != null and bname!=''">
+                            bname=#{bname}
+                        </if>
+        </trim>
+    </update>
+</mapper>
